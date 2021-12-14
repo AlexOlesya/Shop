@@ -39,7 +39,7 @@ export function ListItemComponent(props: ListItemComponentProps) {
                     {item.brief}
                 </Card.Text>
                 <span><b>${item.price}</b></span>
-                <div className="add-to-cart"><Button onClick={() => addToCart(item)} variant="success">Add to cart</Button></div>
+                <div className="add-to-cart"><Button onClick={() => addToCart(item)} variant="success">В корзину</Button></div>
             </Card.Body>
         </Card>
     );

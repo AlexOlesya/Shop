@@ -1,124 +1,181 @@
 {
-  "cart": [],
+  "cart": [
+    {
+      "id": 1,
+      "quantity": 1
+    }
+  ],
   "items": [
     {
       "id": 1,
-      "title": "Foo bar",
-      "price": 100,
-      "color": "red",
-      "imageSrc": "https://farm8.staticflickr.com/7062/7053816915_8a0a65c3c7_b.jpg",
-      "brief": "Lorem ipsum dolor sit amet",
+      "title": "Собака-обнимака",
+      "price": 10,
+      "kind": "dog",
+      "imageSrc": "https://img.joomcdn.net/daa7ab98fff53041673f32271feb92354872c3a6_original.jpeg",
+      "brief": "Плюшевая подушка в виде Корги 60 см",
       "description": [
         {
           "type": "text",
-          "text": "Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"
-        },
-        {
-          "type": "checkbox",
-          "name": "check1",
-          "variant": [
-            "asdlasldlsa",
-            "aspqqp",
-            "qweewe"
-          ]
+          "text": "Вы давно мечтали завести себе собаку, но какие-либо обстоятельства мешали это сделать? Тогда у нас есть для вас очень крутое решение! Заведите себе плюшевую подушку-обнимашку. Пусть эта милая собачка скрасит вечер на уютной кухне за ужином или за просмотром фильма на диване."
         },
         {
           "type": "image",
-          "imageSrc": "https://klkfavorit.ru/wp-content/uploads/2/9/4/29462647f763bf058bf93f4177501696.jpg"
-        },
-        {
-          "type": "checkbox",
-          "name": "check2",
-          "variant": [
-            "Test",
-            "Foo",
-            "Bar"
-          ]
-        },
-        {
-          "type": "text",
-          "text": "dasdasd asljdaslj djasnd kjahskd as"
+          "imageSrc": "https://img-gorod.ru/27/673/2767308_2.jpg"
         }
       ]
     },
     {
       "id": 2,
-      "title": "Lorem ipsum",
-      "color": "red",
-      "price": 123,
-      "imageSrc": "https://sobakainfo.ru/wp-content/uploads/2016/11/6-14.jpg",
-      "brief": "Lorem ipsum dolor sit amet"
+      "title": "Подушка - кошка",
+      "kind": "cat",
+      "price": 12,
+      "imageSrc": "https://i.pinimg.com/originals/32/2c/7e/322c7ea901c7bd9de8ea09454c62fe9d.jpg",
+      "brief": "Плюшевые игрушки пушистые кошки 55 см",
+      "description": [
+        {
+          "type": "text",
+          "text": "Мягкая игрушка Кот пушистый плюшевый зверушка, 30 см покорит женское или детское сердце с первых секунд. Если Вас настигнет грусть, кот непременно поднимет Вам настроение. Все в детстве мечтают о плюшевом друге, которого можно обнимать. Ребенок научится проявлять заботу о своем мягком друге. Развивает воображение и моторику рук. Игрушка выполнена из экологически чистых, проверенных материалов- текстиля и полиэфирных волокон, не деформируется и не выцветает после стирки. Для детей от 3-х лет."
+        },
+        {
+          "type": "image",
+          "imageSrc": "https://cdn1.ozone.ru/s3/multimedia-b/c1200/6053971211.jpg"
+        }
+      ]
     },
     {
       "id": 3,
-      "title": "Dolor",
-      "color": "blue",
-      "price": 500,
-      "imageSrc": "https://klkfavorit.ru/wp-content/uploads/5/4/e/54ef2ae25328982d8ec84de9bb018bde.jpeg",
-      "brief": "Lorem ipsum dolor sit amet"
+      "title": "Плюшевый мишка",
+      "kind": "bear",
+      "price": 23,
+      "imageSrc": "https://laboratory-holiday.ru/files/products/plyushevyj-mishka.800x800.jpg",
+      "brief": "Мягкая игрушка плюшевый мишка 115 см",
+      "description": [
+        {
+          "type": "text",
+          "text": "На свете попросту не существует девушек, которые не любили бы мягкие игрушки. Причем в эту категорию попадают как дети, так и взрослые и если вы реально хотите удивить свою половинку, дочь, племянницу или друга то подарите ей огромного плюшевого медведя и ее сердце навсегда заполнится мыслями только о вас!"
+        },
+        {
+          "type": "image",
+          "imageSrc": "https://laboratory-holiday.ru/files/products/plyushevyj-mishka-2.1200x800w.jpg"
+        }
+      ]
     },
     {
       "id": 4,
-      "title": "Sit",
-      "color": "black",
-      "price": 600,
-      "imageSrc": "https://lapkins.ru/upload/uf/55b/55b9fa60a5dbc4abe05fa7abe6564d6b.jpg",
-      "brief": "Lorem ipsum dolor sit amet"
+      "title": "Собака - улыбака",
+      "kind": "dog",
+      "price": 11,
+      "imageSrc": "https://anime-market.kiev.ua/product_images/product/TN_7e0ff6d122ea0c0203eccf6775dde55f.jpg",
+      "brief": "Мягкая плюшевая игрушка Акита-ину 25 см",
+      "description": [
+        {
+          "type": "text",
+          "text": "Мягкая игрушка в виде собаки породы Акита-ину - отличный подарок для детей и взрослых, которые любят песиков этой замечательной породы."
+        },
+        {
+          "type": "image",
+          "imageSrc": "https://super01.ru/pictures/product/big/57990_big.png"
+        }
+      ]
     },
     {
       "id": 5,
-      "title": "Amet",
-      "color": "black",
-      "price": 1000,
-      "imageSrc": "https://klkfavorit.ru/wp-content/uploads/2/9/4/29462647f763bf058bf93f4177501696.jpg",
-      "brief": "Lorem ipsum dolor sit amet"
+      "title": "Милые кошки",
+      "kind": "cat",
+      "price": 15,
+      "imageSrc": "https://img.joomcdn.net/444704428b33db877112ef8ca90f8a298f0e23a6_original.jpeg",
+      "brief": "Плюшевые игрушки милые кошки 70 см",
+      "description": [
+        {
+          "type": "text",
+          "text": "Мягкая игрушка-кошка прекрасный выбор для того, чтобы сделать будни более уютными! Игрушка выполнена из экологически чистых материалов. Для детей от 3-х лет. "
+        },
+        {
+          "type": "image",
+          "imageSrc": "https://image.dhgate.com/0x0/f2/albu/g8/M00/74/03/rBVaV15IpiSAYiy3AAFRDcGFx0E117.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Глазастик",
+      "kind": "dog",
+      "price": 9,
+      "imageSrc": "https://static.detmir.st/media_out/066/369/3369066/1500/0.jpg?1599620407144",
+      "brief": "Мягкая игрушка Глазастик Хаски 20 см",
+      "description": [
+        {
+          "type": "text",
+          "text": "Вы только посмотрите! Мимо такого просто невозможно пройти мимо. Шерсть у щенка очень мягкая и пушистая, благодаря чему с ним будет приятно играть. Длинна составляет 20 см, что обеспечивает отличную компактность."
+        },
+        {
+          "type": "image",
+          "imageSrc": "https://bi.ua/uploaded-images/products/size_400/516080_1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Кошка Лулу",
+      "kind": "cat",
+      "price": 13,
+      "imageSrc": "https://img.joomcdn.net/7e9290a7066a422ceab25e9ba04080dc0eb72e3d_1024_1024.jpeg",
+      "brief": "Мягкая пушистая игрушка Кошка Лулу 20 см",
+      "description": [
+        {
+          "type": "text",
+          "text": "Игрушка сиамская кошка сделана из короткого плюша и наполнена ПП-хлопком; безвредна для кожи. Идеальный подарок: это хороший подарок для детей, семьи или друзей."
+        },
+        {
+          "type": "image",
+          "imageSrc": "https://img.joomcdn.net/0e287f55240d536cb0ccbe306d0373decf870e90_1024_1024.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Капитан Хаски",
+      "kind": "dog",
+      "price": 20,
+      "imageSrc": "https://content1.rozetka.com.ua/goods/images/big/176762827.jpg",
+      "brief": "Игрушка-плед Капитан Хаски 60 см",
+      "description": [
+        {
+          "type": "text",
+          "text": "Думаете над тем, как удивить близкого человека? Тогда вам очень нужна эта собачка-подушка Хаски в свитере.Внутри игрушки под застежкой-молнией спрятан плед размером 100 на 170 см. Это делает милого песика не только приятным, но и очень полезным подарком, который по достоинству оценят и дети, и взрослые.Подушка Собака 3 в 1 (плед, мягкая игрушка и подушка) станет незаменимым помощником в путешествиях и на пикниках. Просто положите её на полочку в автомобиле и собачка согреет вас в нужную минуту.Игрушка имеет плотное наполнение и не потеряет своей формы после после вынимания из нее пледа (что часто случается с бюджетными аналогами игрушками)."
+        },
+        {
+          "type": "image",
+          "imageSrc": "https://images.ua.prom.st/3012761647_w640_h640_pled-igrushka-podushka.jpg"
+        }
+      ]
     }
   ],
   "comments": [
     {
-      "shopItemId": 2,
-      "text": "Very nice!",
+      "shopItemId": 1,
+      "text": "Отличная игрушка, ребенку понравилась!",
       "id": 1
     },
     {
-      "shopItemId": 2,
-      "text": "sdadsasd",
+      "shopItemId": 1,
+      "text": "Большое мягкое создание, очень приятно с ним лежать в обнимку :)",
       "id": 2
     },
     {
       "shopItemId": 2,
-      "text": "sdkfmsdlkf",
+      "text": "Размер игрушки соответствует заявленному и это хорошо. Мордочка отличается от фото, но в лучшую сторону. ",
       "id": 3
     },
     {
       "shopItemId": 2,
-      "text": "asdasd",
+      "text": "Как на картинке, пушистый и плюшевый. Есть молния, при необходимости можно постирать ",
       "id": 4
     },
     {
       "shopItemId": 2,
-      "text": "asdasdq312312",
+      "text": "Переживала, что придет плохого качества, но все норм, заказала второго на подарок.  ",
       "id": 5
-    },
-    {
-      "shopItemId": 2,
-      "text": "34123123123asdasd",
-      "id": 6
-    },
-    {
-      "shopItemId": 2,
-      "text": "slkdjalksdl",
-      "id": 7
-    },
-    {
-      "shopItemId": 3,
-      "text": "asdasdmaslkd",
-      "id": 8
-    },
-    {
-      "shopItemId": 3,
-      "text": "asdad;q3le23",
-      "id": 9
     }
   ]
 }
